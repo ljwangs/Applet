@@ -1,0 +1,40 @@
+/* pages/search/index.wxss */
+page {
+  background-color: #dedede;
+  padding: 20rpx;
+}
+.search_row {
+  height: 60rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.search_row input {
+  flex: 1;
+  background-color: #fff;
+  height: 100%;
+  font-size: 22rpx;
+  padding-left: 10rpx;
+}
+.search_row button {
+  width: 100rpx !important;
+  height: 100%;
+  font-weight: 600 !important;
+  font-size: 22rpx !important;
+  padding: 0;
+  margin: 0 0 0 10rpx !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_content {
+  margin-top: 30rpx;
+}
+.search_content .search_item {
+  background-color: #fff;
+  font-size: 26rpx;
+  padding: 15rpx 10rpx;
+  border-bottom: 1rpx solid #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
